@@ -1,0 +1,29 @@
+.btn {
+    width: 100%;
+    height: fit-content;
+    padding: 12px 36px;
+    transition: ease-in-out all 0.1s;
+    margin: 50px 0 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+
+
+.solid {
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    color: #303030;
+}
+
+.outline {
+    background-color: #fff;
+    color: #303030;
+    border: 1px solid #FCD200;
+}

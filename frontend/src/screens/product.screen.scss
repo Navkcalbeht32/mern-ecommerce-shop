@@ -1,0 +1,128 @@
+//Home Screen
+.home-screen {
+    
+}
+
+//Product Screen
+.product-screen {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+
+
+    &-image-container {
+        position: relative;
+        width: 50%;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    &-stock {
+        display: flex;
+
+        .in {
+            color: #01CC5D;
+        }
+
+        .out {
+            color: #999999;
+        }
+    }
+
+    
+    &-info {
+        width: 50%;
+        padding: 0 40px;
+
+        h3 {
+            margin: 20px 0;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        &-buttons {
+            text-align: center;
+            
+            h6 {
+                font-weight: 700;
+                font-size: 13px;
+            }
+
+            i {
+                color: #01CC5D;
+            }
+
+            .btn {
+                width: 100%;
+                height: fit-content;
+                padding: 12px 36px;
+                transition: ease-in-out all 0.1s;
+                margin: 30px 0;
+                text-align: center;
+                border-radius: 10px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            button:hover {
+                opacity: 0.7;
+                cursor: pointer;
+            }
+            
+            button:disabled {
+                opacity: 0.7;
+                background-color: #e9e9e9;
+                border: 1px solid #e9e9e9;
+                cursor: initial;
+            }
+            
+            .solid {
+                background-color: #FFD814;
+                border: 1px solid #FCD200;
+                color: #303030;
+            }
+            
+            .outline {
+                background-color: #fff;
+                color: #303030;
+                border: 1px solid #FCD200;
+            }
+        }
+
+        
+
+        &-review {
+            display: flex;
+            margin: 20px 0;
+
+            h4 {
+                font-weight: 300;
+                text-decoration: underline;
+                margin-left: 14px;
+            }
+
+        }
+
+        h5 {
+            font-weight: 400;
+            font-size: 16px;
+            margin: 10px 0 ;
+            line-height: 1.7;
+        }
+    }
+}
+
+.back-btn {
+    height: fit-content;
+    margin-top: 20px;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: underline;
+}
+
